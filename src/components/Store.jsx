@@ -85,8 +85,8 @@ export const Store = () => {
 
   return (
     <div>
-      <span className="material-icons" onSwitch={() => setViewType('list')}>view_list</span>
-      <span className="material-icons" onSwitch={() => setViewType('grid')}>view_module</span>
+      <span className="material-icons" onClick={() => setViewType('list')}>view_list</span>
+      <span className="material-icons" onClick={() => setViewType('grid')}>view_module</span>
 
       <ProductsView products={products} viewType={viewType} />
     </div>
