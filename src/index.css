@@ -12,4 +12,25 @@ code {
     monospace;
 }
 
+.productImg {
+  width: 100px;
+  height: 100px;
+}
+.shopItem {
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin: 10px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.shopCard {
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin: 10px;
+}
+
+
 @import url('https://fonts.googleapis.com/icon?family=Material+Icons')
+
+
